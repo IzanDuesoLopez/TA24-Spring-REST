@@ -19,5 +19,5 @@ public interface ITrabajadorService {
 	
 	public void eliminarTrabajador(Long id); // Eliminamos trabajador por ID DELETE
 	
-	public List<Trabajador> listarTrabajadoresXTrabajo(String nombre);
+	public List<Trabajador> listarTrabajadoresXTrabajo(String nombre); // Listamos trabajadores por TRABAJO
 }

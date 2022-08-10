@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="trabajdores")
+@Table(name="trabajadores")
 public class Trabajador {
 
 	// Atributos de la entidad trabajador
@@ -40,17 +40,17 @@ public class Trabajador {
 		this.trabajo = trabajo;
 		this.salario = salario;
 		
-		if(this.trabajo.equals(Trabajos.CAMARERO.toString())) {
-			this.salario = 1100;
-		} else if (this.trabajo.equals(Trabajos.CAJERO.toString())) {
-			this.salario = 1200;
-		} else if (this.trabajo.equals(Trabajos.OBRERO.toString())) {
-			this.salario = 1250;
-		} else if (this.trabajo.equals(Trabajos.DEVELOPER.toString())) {
-			this.salario = 1300;
-		} else if (this.trabajo.equals(Trabajos.FUTBOLISTA.toString())) {
-			this.salario = 5000;
-		}
+//		if(this.trabajo.equals(Trabajos.CAMARERO.toString())) {
+//			this.salario = 1100;
+//		} else if (this.trabajo.equals(Trabajos.CAJERO.toString())) {
+//			this.salario = 1200;
+//		} else if (this.trabajo.equals(Trabajos.OBRERO.toString())) {
+//			this.salario = 1250;
+//		} else if (this.trabajo.equals(Trabajos.DEVELOPER.toString())) {
+//			this.salario = 1300;
+//		} else if (this.trabajo.equals(Trabajos.FUTBOLISTA.toString())) {
+//			this.salario = 5000;
+//		}
 	}
 
 	/**

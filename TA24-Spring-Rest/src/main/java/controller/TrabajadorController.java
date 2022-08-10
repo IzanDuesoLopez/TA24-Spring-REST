@@ -35,7 +35,7 @@ public class TrabajadorController {
 	}
 	
 	// Listamos trabajadores por TRABAJO
-	@GetMapping("/trabajdores/trabajo/{trabajo}")
+	@GetMapping("/trabajadores/trabajo/{trabajo}")
 	public List<Trabajador> listarTrabajadorXTrabajo(@PathVariable(name = "trabajo") String trabajo){
 		return trabajadorServiceImpl.listarTrabajadoresXTrabajo(trabajo);
 	}
@@ -72,7 +72,7 @@ public class TrabajadorController {
 	}
 	
 	// Eliminar trabajador por ID
-	@DeleteMapping("/clientes/{id}")
+	@DeleteMapping("/trabajadores/{id}")
 	public void eliminarTrabajador(@PathVariable(name = "id") Long id) {
 		trabajadorServiceImpl.eliminarTrabajador(id);
 	}
