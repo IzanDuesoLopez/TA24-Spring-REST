@@ -1,4 +1,4 @@
-package controller;
+package com.example.demo.controller;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dto.Trabajador;
-import service.TrabajadorServiceImpl;
+import com.example.demo.dto.Trabajador;
+import com.example.demo.service.TrabajadorServiceImpl;
 
 @RestController
 @RequestMapping("/api")
