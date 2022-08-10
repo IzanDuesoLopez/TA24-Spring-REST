@@ -10,4 +10,6 @@ public interface ITrabajadorDAO extends JpaRepository<Trabajador, Long>{
 	
 	// Listamos trabajadores por el campo nombre
 	public List<Trabajador> findByNombre(String nombre);
+	
+	public List<Trabajador> findByTrabajo(String nombre);
 }

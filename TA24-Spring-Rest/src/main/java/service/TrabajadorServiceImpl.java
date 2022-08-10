@@ -29,7 +29,7 @@ public class TrabajadorServiceImpl implements ITrabajadorService{
 	}
 
 	@Override
-	public Trabajador clienteXId(Long id) {
+	public Trabajador trabajadorXId(Long id) {
 
 		return iTrabajadorDAO.findById(id).get();
 	}
@@ -51,6 +51,12 @@ public class TrabajadorServiceImpl implements ITrabajadorService{
 		
 		iTrabajadorDAO.deleteById(id);
 		System.out.println("Trabajador con id " + id + " eliminado.");
+	}
+
+	@Override
+	public List<Trabajador> listarTrabajadoresXTrabajo(String nombre) {
+
+		return iTrabajadorDAO.findByTrabajo(nombre);
 	}
 
 }

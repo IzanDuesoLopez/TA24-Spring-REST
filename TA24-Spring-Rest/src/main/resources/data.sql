@@ -8,3 +8,7 @@ create table trabajadores(
 );
 
 insert into trabajadores (nombre, trabajo)values('Izan', 'CAMARERO');
+insert into trabajadores (nombre, trabajo)values('Eder', 'CAJERO');
+insert into trabajadores (nombre, trabajo)values('Oscar', 'OBRERO');
+insert into trabajadores (nombre, trabajo)values('Lander', 'DEVELOPER');
+insert into trabajadores (nombre, trabajo)values('Ludex', 'FUTBOLISTA');
