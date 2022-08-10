@@ -7,8 +7,8 @@ create table trabajadores(
     salario int
 );
 
-insert into trabajadores (nombre, trabajo)values('Izan', 'CAMARERO');
-insert into trabajadores (nombre, trabajo)values('Eder', 'CAJERO');
-insert into trabajadores (nombre, trabajo)values('Oscar', 'OBRERO');
-insert into trabajadores (nombre, trabajo)values('Lander', 'DEVELOPER');
-insert into trabajadores (nombre, trabajo)values('Ludex', 'FUTBOLISTA');
+insert into trabajadores (nombre, trabajo, salario)values('Izan', 'CAMARERO', 300);
+insert into trabajadores (nombre, trabajo, salario)values('Eder', 'CAJERO', 300);
+insert into trabajadores (nombre, trabajo, salario)values('Oscar', 'OBRERO', 300);
+insert into trabajadores (nombre, trabajo, salario)values('Lander', 'DEVELOPER', 300);
+insert into trabajadores (nombre, trabajo, salario)values('Ludex', 'FUTBOLISTA', 300);
